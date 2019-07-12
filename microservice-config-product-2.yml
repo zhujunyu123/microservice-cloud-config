@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-product-config-2 #这个很重要，这在以后的服务与服务之间相互调用一般都是根据
+    name: microservice-product-config #这个很重要，这在以后的服务与服务之间相互调用一般都是根据
 
 eureka:
   client:
@@ -35,7 +35,7 @@ server:
 spring:
   profiles:  prod # 开发环境
   application:
-    name: microservice-product-config-2 #这个很重要，这在以后的服务与服务之间相互调用一般都是根据
+    name: microservice-product-config #这个很重要，这在以后的服务与服务之间相互调用一般都是根据
 
 eureka:
   client:
